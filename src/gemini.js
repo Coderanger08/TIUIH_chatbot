@@ -6,7 +6,7 @@ export const askGemini = async (message) => {
       body: JSON.stringify({
         message,               // example: "/send_email Subject: \"TIU Update\" Body: \"Join us Friday!\""
         role: "admin",         // make dynamic later if needed
-        userId: "TIUIH"        // must match Permit user key
+        userId: "admin"        // must match Permit user key
       }),
     });
 
