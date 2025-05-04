@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const PERMIT_API_KEY = "permit_key_JE92K1GH41F89ZlsSXOgmZP9Xjp5kmLkDN3XHdZMvbWFnVpN9aMd86MgOKOXFHJX33qp7xZg98ijysTiebuZ7";
+const PERMIT_API_KEY = "PERMIT_API_KEY";
 const PDP_URL = "https://api.permit.io";
 
 export async function checkPermission(user, action, role) {
