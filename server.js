@@ -10,7 +10,7 @@ const port = 3001;
 app.use(cors());
 app.use(express.json());
 
-const genAI = new GoogleGenerativeAI("AIzaSyBeRthdWWX-IJ3F5Lohmk7aUZKwo6dORxQ");
+const genAI = new GoogleGenerativeAI("GEMINI_API_KEY");
 
 // ✅ Email config
 const transporter = nodemailer.createTransport({
