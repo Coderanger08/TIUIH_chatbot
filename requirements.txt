@@ -1,0 +1,18 @@
+# === Backend (Node.js) ===
+express
+cors
+axios
+nodemailer
+@google/generative-ai
+dotenv         # optional, only if using .env files
+
+# === Frontend (React + Vite) ===
+react
+react-dom
+vite
+axios
+
+# Optional - if using Tailwind CSS for styling
+tailwindcss
+postcss
+autoprefixer
